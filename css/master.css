@@ -1,3 +1,48 @@
 body {
-    background-color: #FAF5E4;
+    margin: 0%;
+}
+
+.intro {
+    background-color: #A85CF9;
+    height: 100%;
+    width: 22%;
+    padding: 1%;
+    display: inline-block;
+    text-align: center;
+}
+
+/* .exper {
+    background-color: #5534A5;
+    height: 200px;
+    width: 200px;
+    
+}
+
+.skill {
+    background-color: #4B7BE5;
+    height: 200px;
+    width: 200px;
+
+}
+
+.educa {
+    background-color: #6FDFDF;
+    height: 200px;
+    width: 200px;
+
+}
+
+.conta {
+    background-color: #A85CF9;
+    height: 200px;
+    width: 200px;
+
+} */
+img {
+    height: 50%;
+    width: 50%;
+    display: block;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
