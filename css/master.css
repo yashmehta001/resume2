@@ -1,20 +1,49 @@
-/* body {
+body {
     margin: 0%;
     height: 100%;
 }
+.left{
+    position: absolute;
 
+}
 .intro {
-    background-color: #A85CF9;
-    text-align: center;
+    text-align: justify;
+    /* margin: 5px; */
+    height: 175px;
+    width: 65%;
+    
+}
+#profile {
     float: left;
-    margin-bottom: 0%;
-    height: 100%;
-  width: 25%;
-  position: absolute;
- 
+    height: 150px;
+    width: 150px;
+    /* display: block; */
+    align-content: left;
+    margin: 5px;
+    padding: 5px;
+} 
+
+#contact {
+    background-color: #A85CF9;
+    /* float: right; */
+    width: 30%;
+    height: 175px;
+    padding: 5px;
+    border: #A85CF9;
+    border-radius: 5%;
+    margin: 5px;
+}
+
+.experience {
+    padding-top: 175px;
 }
 
 
+.right {
+    float: right;
+}
+
+/* 
 .exper {
     background-color: #5534A5;
     height: 200px;
@@ -46,14 +75,6 @@
 }
 */
 
-#profile {
-    height: 50%;
-    width: 50%;
-    display: block;
-    align-content: center;
-    margin-left: auto;
-    margin-right: auto;
-} 
 
 img {
     height: 10px;
