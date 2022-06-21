@@ -11,12 +11,17 @@ h6 {
 
 ul {
     margin-left: 25px;
+    list-style: none;
+}
+ul li::before{
+    content: "■";
+    color: burlywood;
+    display: inline-block;
+    font-weight: bold;
+    width: 1em;
+    margin-left: -1em ;
 }
 
-div {
-    margin: 5px;
-    padding: 5px ;
-}
 
 .body {
     margin: 10px;
@@ -62,30 +67,29 @@ div {
     width: 30%;
 }
 
-#contact {
+.contact {
     background-color: #808080;
-    /* float: right; */
-    /* width: 30%; */
-    height: 175px;
-    /* padding: 5px; */
+    height: auto;
     border: #A85CF9;
     border-radius: 5%;
     margin: 5px;
     color: white;
-    
+    margin-bottom: 40px;
+    padding: 5px;
 }
 
 #skills {
     background-color: #808080;
     /* float: right; */
     /* width: 30%; */
-    height: 360px;
+    height: auto;
     /* padding: 5px; */
     border: #A85CF9;
     border-radius: 5%;
-    margin: 5px;
+    /* margin: 5px; */
     color: white;
-    
+    padding: 5px;
+
 }
 
 
@@ -99,15 +103,23 @@ img {
     border-radius: 25%;
 }
 
+.heading {
+    height: 40px;
+    width: 40px;
+}
+
 .noback {
     background-color: transparent;
     border: none;
-    padding: 0px;
+    padding: 3px;
     border-radius: 0px;
-    margin-left: 25px;
+    /* margin-left: 25px; */
+    text-align: center;
+    height: fit-content;
+    /* width: fit-content; */
 }
 
-a {
+#contact {
     text-decoration: none;
     color: white;
 }
@@ -117,5 +129,14 @@ h4 {
     border: 1px black solid;
     padding: 7px;
     border-radius: 50px;
-    background-color: yellowgreen   ;
+    color: burlywood;
+    background-color: black  ;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: black;
 }
