@@ -1,83 +1,121 @@
-body {
-    margin: 0%;
+h2 {
+    padding: 3px;
+    background-color: #807777;
+    text-align: center;
+}
+h6 {
+    float: right;
+    text-align: right;
+    margin: 5px;
+}
+
+ul {
+    margin-left: 25px;
+}
+
+div {
+    margin: 5px;
+    padding: 5px ;
+}
+
+.body {
+    margin: 10px;
     height: 100%;
 }
 .left{
     position: absolute;
+    width: 68%;
 
 }
 .intro {
     text-align: justify;
-    /* margin: 5px; */
+    margin: 5px;
     height: 175px;
-    width: 65%;
-    
+    /* background-color: none;     */
 }
+#desg {
+    background-color: transparent;
+    text-align: left;
+}
+
+
 #profile {
     float: left;
     height: 150px;
     width: 150px;
-    /* display: block; */
     align-content: left;
     margin: 5px;
     padding: 5px;
+    border-radius: 50%;
+    border: 2px solid #807777;
+    
 } 
 
-#contact {
-    background-color: #A85CF9;
-    /* float: right; */
-    width: 30%;
-    height: 175px;
-    padding: 5px;
-    border: #A85CF9;
-    border-radius: 5%;
-    margin: 5px;
-}
 
 .experience {
-    padding-top: 175px;
+    /* padding-top: 175px; */
 }
 
 
 .right {
     float: right;
+    width: 30%;
 }
 
-/* 
-.exper {
-    background-color: #5534A5;
-    height: 200px;
-    width: 200px;
-    position: absolute;
-    float: left;
-    margin-left: 25%;
+#contact {
+    background-color: #808080;
+    /* float: right; */
+    /* width: 30%; */
+    height: 175px;
+    /* padding: 5px; */
+    border: #A85CF9;
+    border-radius: 5%;
+    margin: 5px;
+    color: white;
+    
 }
 
-.skill {
-    background-color: #4B7BE5;
-    height: 200px;
-    width: 200px;
-
+#skills {
+    background-color: #808080;
+    /* float: right; */
+    /* width: 30%; */
+    height: 360px;
+    /* padding: 5px; */
+    border: #A85CF9;
+    border-radius: 5%;
+    margin: 5px;
+    color: white;
+    
 }
 
-.educa {
-    background-color: #6FDFDF;
-    height: 200px;
-    width: 200px;
-
-}
-
-.conta {
-    background-color: #A85CF9;
-    height: 200px;
-    width: 200px;
-
-}
-*/
 
 
 img {
-    height: 10px;
-    width: 10px;
+    margin: 10px;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    padding: 2px;
+    border-radius: 25%;
 }
 
+.noback {
+    background-color: transparent;
+    border: none;
+    padding: 0px;
+    border-radius: 0px;
+    margin-left: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h4 {
+    width: fit-content;
+    border: 1px black solid;
+    padding: 7px;
+    border-radius: 50px;
+    background-color: yellowgreen   ;
+}
